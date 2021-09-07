@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <Button
+        android:text="Add Fragment"
+        android:id="@+id/btnAddFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="Change Fragment"
+        android:id="@+id/btnChhangeFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="Remove Fragment"
+        android:id="@+id/btnRemoveFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/fragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+<!--        <androidx.fragment.app.FragmentContainerView-->
+<!--            android:id="@+id/listFragment"-->
+<!--            class="com.example.fragment_nc_b1.fragment.Fragment1"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            tools:layout="@layout/fragment_1">-->
+
+<!--        </androidx.fragment.app.FragmentContainerView>-->
+
+<!--        <androidx.fragment.app.FragmentContainerView-->
+<!--            android:id="@+id/detailFragment"-->
+<!--            class="com.example.fragment_nc_b1.fragment.Fragment2"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            tools:layout="@layout/fragment_2">-->
+
+<!--        </androidx.fragment.app.FragmentContainerView>-->
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
